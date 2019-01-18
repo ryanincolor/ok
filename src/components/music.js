@@ -2,8 +2,8 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 import styles from './music.module.css'
-import MusicPlayer from '../musicPlayer' 
-import Title from '../sectionHeader' 
+import MusicPlayer from './musicPlayer' 
+import Title from './sectionheader' 
 
 
 const Music = () => (
