@@ -1,0 +1,41 @@
+.footer {
+	display: flex;
+	width: 1200px;
+	margin: 0 auto;
+	padding: 300px 0px 96px;
+	color: white;
+	font-size: 24px;
+	align-items: flex-end;
+}
+
+.footer div {
+	flex: 1 1 50%;
+}
+
+.footer h3 {
+	letter-spacing: 8px;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+.footer a {
+	color: white;
+	text-decoration: none;
+}
+
+
+.bookings {
+
+}
+
+.links {
+	display: flex;
+	flex-direction: column;
+	text-align: right;
+}
+
+
+.links a {
+	margin-top: 32px;
+	letter-spacing: 3px;
+}

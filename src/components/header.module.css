@@ -1,0 +1,11 @@
+   
+.header {
+  margin: 0 auto;
+  max-width:1200px;
+  position: absolute;
+  padding: 0 20px;
+  left: 0;
+  right: 0;
+  top: 96px;
+  z-index: 2;
+}
