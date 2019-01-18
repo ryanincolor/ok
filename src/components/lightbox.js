@@ -4,7 +4,7 @@ import Img from "gatsby-image"
 import styled from "styled-components"
 import styles from "./pressPhotos.module.css"
 import { Dialog } from "@reach/dialog"
-import Title from './sectionHeader' 
+import Title from './sectionheader' 
 import "@reach/dialog/styles.css"
 
 
