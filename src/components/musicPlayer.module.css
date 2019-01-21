@@ -9,14 +9,6 @@
 
 }
 
-
-.item iframe {
-  margin-top: -3px;
-  margin-bottom: -24px;
-  filter: grayscale(100%);
-  cursor: pointer;
-}
-
 @media (min-width: 481px) and (max-width: 767px) {
   .item {
   	flex: 1 1 50%;
@@ -37,6 +29,13 @@
 
 
 @media(min-width:768px) {
+  .item:hover iframe {
+    background: none;
+    filter: none;
+    cursor: pointer;
+
+}
+
   .item:after {
     content:"";
     position: absolute;
@@ -54,13 +53,14 @@
     z-index: -1
   }
 
-
-  .item {
-    background: none;
-    filter: none;
-    cursor: pointer;
-
+.item iframe {
+  margin-top: -3px;
+  margin-bottom: -24px;
+  filter: grayscale(100%);
+  cursor: pointer;
 }
+
+
 
 }
 
