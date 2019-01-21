@@ -10,7 +10,7 @@ const musicPlayer = ({url}) => (
 	    	scrolling="no" 
 	    	frameborder="no" 
 	    	allow="autoplay" 
-	    	src={url}>
+	    	src={"https://w.soundcloud.com/player/?url=https%3A//api." + url + "&color=%23000000&auto_play=false&hide_related=true&show_comments=false&show_user=falseide&show_reposts=false&sharing=false&buying=false&show_teaser=false&visual=true"}>
 	    </iframe>          
     </div>
 )

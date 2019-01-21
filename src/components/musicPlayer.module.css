@@ -1,7 +1,7 @@
 
 .item {
 	flex: 1 1 100%;
-    padding: 1rem;
+  margin-top: -24px;
 }
 
 @media (min-width: 481px) and (max-width: 767px) {

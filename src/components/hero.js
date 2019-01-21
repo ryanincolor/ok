@@ -9,8 +9,7 @@ const Intro = () => (
 	  	<div className={styles.container}>
 		    <h1 className={styles.name}><span>Orphan </span><span>King</span></h1>
 		    <p className={styles.bio}>
-		    Unsatisfied with grid based electronic dance music, Stockholm based Orphan King 
-		    attempts to enforce imperfection back into electronic music using dystopian, often 
+		    Stockholm based producer attempts to enforce imperfection using dystopian, often 
 		    purposefully out-of-sync textural harmonies and lazy, heavily processed rhythms.
 		    </p>
 	  	</div>

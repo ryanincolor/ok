@@ -12,18 +12,17 @@ const Music = () => (
         <div style={{
             display: 'flex',
             flexWrap: 'wrap',
-            padding: '.5rem'
+            paddingTop: 64,
           }} 
         >
-          <MusicPlayer url="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/294719977&color=%23000000&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false&visual=true"/>
-          <MusicPlayer url="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/294719977&color=%23000000&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false&visual=true"/>
-          <MusicPlayer url="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/294719977&color=%23000000&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false&visual=true"/>
-          <MusicPlayer url="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/294719977&color=%23000000&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false&visual=true"/>
-          <MusicPlayer url="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/294719977&color=%23000000&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false&visual=true"/>
-          <MusicPlayer url="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/294719977&color=%23000000&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false&visual=true"/>
-          <MusicPlayer url="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/294719977&color=%23000000&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false&visual=true"/>
-          <MusicPlayer url="https://www.youtube.com/embed/EW7RbULN_Ws"/>
-
+          <MusicPlayer url="soundcloud.com/tracks/294719977"/>
+          <MusicPlayer url="soundcloud.com/tracks/297514738"/>
+          <MusicPlayer url="soundcloud.com/tracks/556875138%3Fsecret_token%3Ds-Ox1h8"/>
+          <MusicPlayer url="soundcloud.com/tracks/557506665%3Fsecret_token%3Ds-0KqwT"/>
+          <MusicPlayer url="soundcloud.com/tracks/378293741"/>
+          <MusicPlayer url="soundcloud.com/tracks/306353116"/>
+          <MusicPlayer url="soundcloud.com/tracks/310813194"/>
+          <MusicPlayer url="soundcloud.com/tracks/378293723"/>
        </div>
   </div>
 )

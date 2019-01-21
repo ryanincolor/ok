@@ -1,20 +1,23 @@
 .footer {
 	display: flex;
-	width: 1200px;
+	max-width: 1200px;
 	margin: 0 auto;
-	padding: 300px 0px 96px;
+	padding: 128px 24px 96px;
 	color: white;
 	font-size: 24px;
 	align-items: flex-end;
+	flex-wrap: wrap;
+    flex-direction: column-reverse;
 }
 
 .footer div {
-	flex: 1 1 50%;
+	width: 100%;
 }
 
 .footer h3 {
-	letter-spacing: 8px;
-	font-size: 16px;
+	letter-spacing: 6px;
+	margin-bottom:8px;
+	font-size: 12px;
 	text-transform: uppercase;
 }
 
@@ -31,11 +34,26 @@
 .links {
 	display: flex;
 	flex-direction: column;
-	text-align: right;
+	padding-bottom: 128px;
 }
 
 
 .links a {
 	margin-top: 32px;
 	letter-spacing: 3px;
+}
+
+
+@media(min-width:500px) {
+	.footer {
+		flex-wrap: nowrap;
+	    flex-direction: row;
+	    padding: 300px 24px 96px;
+	}
+
+	.links {
+		text-align: right;
+		padding-bottom: 0px;
+	}
+	
 }
