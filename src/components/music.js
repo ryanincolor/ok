@@ -8,11 +8,10 @@ import Title from './sectionheader'
 
 const Music = () => (
 	<div className={styles.music}>
-       <Title title="Music" />
+       <Title title="Music"/>
         <div style={{
             display: 'flex',
             flexWrap: 'wrap',
-            paddingTop: 64,
           }} 
         >
           <MusicPlayer url="soundcloud.com/tracks/294719977"/>

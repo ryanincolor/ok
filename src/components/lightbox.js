@@ -45,7 +45,7 @@ export default class Lightbox extends Component {
         {showLightbox && (
           <Dialog className={styles.modal}>
             <Img fluid={selectedImage.node.childImageSharp.fluid} />
-            <button
+            <button className={styles.closeButton}
               type="button"
               onClick={() => this.setState({ showLightbox: false })}
             >
