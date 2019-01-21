@@ -11,7 +11,9 @@
   margin: 0;
   outline: none;
   flex: 1 1 50%;
-  transition: all 400ms;
+  transition: all 700ms;
+  cursor: pointer;
+
 }
 
 .previewButton:hover {

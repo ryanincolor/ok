@@ -2,11 +2,19 @@
 .item {
 	flex: 1 1 100%;
   overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  transition: all 700ms ease;
+
+
 }
+
 
 .item iframe {
   margin-top: -3px;
   margin-bottom: -24px;
+  filter: grayscale(100%);
+  cursor: pointer;
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
@@ -25,5 +33,34 @@
     .item {
   	flex: 1 1 25%;
   }  
+}
+
+
+@media(min-width:768px) {
+  .item:after {
+    content:"";
+    position: absolute;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    background: rgba(0,0,0,0.7);
+
+
+  }
+
+  .item:hover:after {
+    background: none;
+    z-index: -1
+  }
+
+
+  .item {
+    background: none;
+    filter: none;
+    cursor: pointer;
+
+}
+
 }
 
