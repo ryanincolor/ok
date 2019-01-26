@@ -1,4 +1,10 @@
 .container {
+  padding-top: 16px;
+  background: black;
+}
+
+.photos {
+    padding-top: 128px;
   	display: flex;
   	flex-wrap: wrap;
 }

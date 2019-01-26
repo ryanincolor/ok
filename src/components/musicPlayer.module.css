@@ -5,8 +5,11 @@
   position: relative;
   cursor: pointer;
   transition: all 700ms ease;
+}
 
-
+.item iframe {
+  margin-top: -3px;
+  margin-bottom: -24px;
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
@@ -29,7 +32,7 @@
 
 
 @media(min-width:768px) {
-  .item:hover iframe {
+  .item:hovert iframe {
     background: none;
     filter: none;
     cursor: pointer;
@@ -54,8 +57,6 @@
   }
 
 .item iframe {
-  margin-top: -3px;
-  margin-bottom: -24px;
   filter: grayscale(100%);
   cursor: pointer;
 }

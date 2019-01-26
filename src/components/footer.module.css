@@ -1,4 +1,9 @@
 .footer {
+	width: 100%;
+	background: black;
+}
+
+.footer > div {
 	display: flex;
 	max-width: 1200px;
 	margin: 0 auto;
@@ -10,7 +15,7 @@
     flex-direction: column-reverse;
 }
 
-.footer div {
+.footer > div div {
 	width: 100%;
 }
 
@@ -45,7 +50,7 @@
 
 
 @media(min-width:500px) {
-	.footer {
+	.footer > div {
 		flex-wrap: nowrap;
 	    flex-direction: row;
 	    padding: 300px 24px 96px;

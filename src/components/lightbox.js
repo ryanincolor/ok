@@ -27,20 +27,22 @@ export default class Lightbox extends Component {
     const { selectedImage, showLightbox } = this.state
     return (
       <Fragment>
-        <Title title="Photos" />
         <div className={styles.container}>
-          {pressPhotos.map(image => (
-            <button 
-              className={styles.previewButton}
-              key={image.node.childImageSharp.fluid.src}
-              type="button"
-              onClick={() =>
-                this.setState({ showLightbox: true, selectedImage: image })
-              }
-            >
-              <Img className={styles.image} fluid={image.node.childImageSharp.fluid} />
-            </button>
-          ))}
+          <Title title="Photos" />
+          <div className={styles.photos}>
+            {pressPhotos.map(image => (
+              <button 
+                className={styles.previewButton}
+                key={image.node.childImageSharp.fluid.src}
+                type="button"
+                onClick={() =>
+                  this.setState({ showLightbox: true, selectedImage: image })
+                }
+              >
+                <Img className={styles.image} fluid={image.node.childImageSharp.fluid} />
+              </button>
+            ))}
+          </div>
         </div>
         {showLightbox && (
           <Dialog className={styles.modal}>
