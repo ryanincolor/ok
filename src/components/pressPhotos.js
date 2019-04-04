@@ -11,7 +11,7 @@ const PressPhotos = () => (
           edges {
             node {
               childImageSharp {
-                fluid(maxWidth: 2000) {
+                fluid(maxWidth: 2000, quality: 90) {
                   ...GatsbyImageSharpFluid
                 }
               }

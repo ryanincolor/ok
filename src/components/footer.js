@@ -18,8 +18,7 @@ const Footer = () => (
     		<a href="https://open.spotify.com/artist/7bFR4AY6BX3kFpFz6614xr?si=4pELlLShReKmPPZqGtDKZg" target="_blank">spotify </a>
     		<a href="https://www.youtube.com/channel/UCxHg7zKbM5_e_jAy_tib6rA" target="_blank">youtube</a>
     		<a href="https://itunes.apple.com/se/artist/orphan-king/1330385502?l=en" target="_blank">apple music</a>
-    		<a href="https://www.instagram.com/orphanking_/">presskit</a>
-    		<a href="https://www.dropbox.com/s/hkrtp4qd0lj6by2/Orphan%20King%20Press%20Photos.zip?dl=1" download>photos</a>
+    		<a href="https://www.dropbox.com/s/ztj80b8s4inbwiv/Press%20Photos.zip?dl=1" download>press photos</a>
     	</div>
     </div>
   </div>
