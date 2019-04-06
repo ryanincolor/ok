@@ -8,4 +8,10 @@
   right: 0;
   top: 96px;
   z-index: 2;
+  text-align: center;
+}
+
+
+.header img {
+  width: 48px;
 }
