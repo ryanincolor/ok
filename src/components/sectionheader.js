@@ -2,20 +2,23 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 import Logo from "../images/logo.svg" 
+import { Link } from 'gatsby'
+
 
 
 const SectionHeader = ({title}) => (
 
   <div style={{ margin: '0 auto', paddingTop: '128px'}} >
-    <img src={Logo}
-      style={{
-        margin: '0 auto',
-        textAlign: 'center',
-        width: '32px',
-        display: 'flex',
-        paddingBottom: '20px'
-      }}
-    />
+  
+        <img src={Logo}
+          style={{
+            margin: '0 auto',
+            textAlign: 'center',
+            width: '16px',
+            display: 'flex',
+            paddingBottom: '20px'
+          }}
+        />
     <h2 style={{
           textAlign: 'center',
           color: 'white',

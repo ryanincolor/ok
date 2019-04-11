@@ -6,7 +6,9 @@ import styles from './header.module.css'
 
 const Header = ({ siteTitle }) => (
   <div className={styles.header}>
-    <img src={logo} alt="Logo" />
+    <Link to="/">
+    	<img src={logo} alt="Logo" />
+    </Link>
   </div>
 )
 
